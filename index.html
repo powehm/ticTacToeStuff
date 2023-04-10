@@ -1,0 +1,49 @@
+<html lang="en">
+    <head>
+<link rel="stylesheet" href="index.css">
+<script defer type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <main class="background">
+            <div class="heading">
+                <h2>Tic Tac Toe</h2>
+                <h4 class="instruction">
+                    <div class="direction">
+                      <p>Click a square to make your move!</p>
+                    </div>
+                   
+                  </div>
+                    <div class="turn"></div>
+                    <div class="winningMessage">
+                      <div class="winningMessageText"></div>
+                      <div id="draw"></div>
+                  </div></h4>
+            </div>
+            <form class="players" id="form">
+                <label for="player">X</label>
+                <input type="text" id="x" placeholder="Player 1"/>
+                <label for="playertwo">O</label>
+                <input type="text" id ="o" placeholder="Player 2"/>
+                <button>submit</button>
+            </form>
+            </header>
+            <main>
+            <div id="grid">
+                <div data-box="0,0" class="cell"></div>
+                <div data-box="0,1" class="cell"></div>
+                <div data-box="0,2" class="cell"></div>
+                <div data-box="1,0" class="cell"></div>
+                <div data-box="1,1" class="cell"></div>
+                <div data-box="1,2" class="cell"></div>
+                <div data-box="2,0" class="cell"></div>
+                <div data-box="2,1" class="cell"></div>
+                <div data-box="2,2" class="cell"></div>
+            </div>
+           <div class="newGame">
+             <button id="restart">Start Over?</button></div>
+            </main>
+            <footer>
+               
+            </footer>
+                </body>
+            </html>
